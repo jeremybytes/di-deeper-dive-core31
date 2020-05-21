@@ -19,6 +19,9 @@ Articles and additional resources: [http://www.jeremybytes.com/Demos.aspx#MoreDI
 * [Adding a Client-Side Cache with the Decorator Pattern](https://jeremybytes.blogspot.com/2019/01/more-di-adding-client-side-cache-with.html)  
 * [The Real Power of Decorators -- Stacking Functionality](https://jeremybytes.blogspot.com/2019/01/more-di-real-power-of-decorators.html)  
 
+**Challenges**  
+* Static Objects: [Mocking Current Time with a Simple Time Provider](https://jeremybytes.blogspot.com/2015/01/mocking-current-time-with-time-provider.html)  
+
 **Related Topics**
 * Session: [DI Why? Getting a Grip on Dependency Injection](http://www.jeremybytes.com/Demos.aspx#DI)
 * Pluralsight: [Getting Started with Dependency Injection in .NET](http://www.pluralsight.com/courses/using-dependency-injection-on-ramp) 
