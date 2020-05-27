@@ -31,7 +31,13 @@ namespace PersonReader.CSV
         private ICSVFileLoader fileLoader;
         public ICSVFileLoader FileLoader
         {
-            get { return fileLoader ??= new CSVFileLoader(filePath); }
+            get {
+                //if (fileLoader == null)
+                //    fileLoader = new CSVFileLoader(filePath);
+                //return fileLoader;
+
+                return fileLoader ??= new CSVFileLoader(filePath);
+            }
             set { fileLoader = value; }
         }
 
