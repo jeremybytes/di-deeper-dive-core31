@@ -11,7 +11,7 @@ namespace PeopleViewer
         public MainWindow(PeopleViewModel viewModel)
         {
             InitializeComponent();
-            ViewModel = viewModel ?? throw new ArgumentNullException("'viewModel' parameter cannot be null");
+            ViewModel = viewModel ?? throw new ArgumentNullException(nameof(viewModel));
             DataContext = ViewModel;
         }
 

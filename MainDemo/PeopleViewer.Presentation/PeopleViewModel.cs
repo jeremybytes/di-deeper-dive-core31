@@ -26,11 +26,11 @@ namespace PeopleViewer.Presentation
         {
             // Guard Clause
             //if (reader == null)
-            //    throw new ArgumentNullException("'reader' parameter cannot be null");
+            //    throw new ArgumentNullException(nameof(reader));
             //Reader = reader;
 
             // Null Conditional Operator
-            Reader = reader ?? throw new ArgumentNullException("'reader' parameter cannot be null");
+            Reader = reader ?? throw new ArgumentNullException(nameof(reader));
         }
 
         public void RefreshPeople()
